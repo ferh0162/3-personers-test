@@ -8,7 +8,7 @@ public class Main {
 
     public static class New {
         public void yes(){
-            System.out.println("Jep Jep");
+            System.out.println("Gang Gang");
         }
     }
 public void hellodear(){
