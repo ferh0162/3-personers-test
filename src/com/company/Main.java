@@ -3,6 +3,7 @@ package com.company;
 public class Main {
     public void hey(){
         System.out.println("Hej med dig");
+        hellodear();
     }
 
     public static class New {
@@ -10,7 +11,9 @@ public class Main {
             System.out.println("Jep Jep");
         }
     }
-
+public void hellodear(){
+    System.out.println("Hvad skal der ske");
+}
     public static void main(String[] args) {
 	// write your code here
         System.out.println("Hello dear");
@@ -21,5 +24,9 @@ obj.hey();
 
 New objekt = new New();
 objekt.yes();
+
+obj.hellodear();
+
+
     }
 }
