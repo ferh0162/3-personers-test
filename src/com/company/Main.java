@@ -14,6 +14,10 @@ public class Main {
 public void hellodear(){
     System.out.println("Hvad skal der ske");
 }
+
+    public void konflikt(){
+        System.out.println("hvor er konflikterne");
+    }
     public static void main(String[] args) {
 	// write your code here
         System.out.println("Hello dear");
@@ -27,6 +31,7 @@ objekt.yes();
 
 obj.hellodear();
 
+obj.konflikt();
 
     }
 }
