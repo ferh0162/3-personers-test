@@ -5,6 +5,12 @@ public class Main {
         System.out.println("Hej med dig");
     }
 
+    public static class New {
+        public void yes(){
+            System.out.println("Jep Jep");
+        }
+    }
+
     public static void main(String[] args) {
 	// write your code here
         System.out.println("Hello dear");
@@ -12,5 +18,8 @@ public class Main {
         System.out.println("Yii");
 Main obj = new Main();
 obj.hey();
+
+New objekt = new New();
+objekt.yes();
     }
 }
